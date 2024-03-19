@@ -1,5 +1,11 @@
 # NBA Defensive Kings - What Are The Historical Trends?
 
+![example](https://github.com/chau-t-tran/info250-final/blob/main/cumulative.PNG?raw=true)
+
+## Visualization Link
+
+https://public.tableau.com/app/profile/chau.tran8335/viz/NBADefensiveStats/Dashboard1
+
 ## Introduction
 
 In an age of NBA basketball where the highlights are often slam-dunks, clutch 3s from deep, and ankle-breakers, it seems like defensive prowess often gets overlooked. We can see this reflected in the basketball community as well. Many "old-heads" will claim that the way basketball was played in the 90's and 80's was much tougher and grittier and that the current generation is "soft". Perhaps we can get a glimpse of this perspective by looking purely at the defensive stats from historical NBA basketball data.
@@ -61,29 +67,30 @@ beasts that existed in the days of yore - such as Wilt Chamberlain and Bill Russ
 
 The Tableau visualization provides 5 different ways of browsing through the defensive side of NBA history:
 
-* **Cumulative Per Game** The x-axis is the player height. The y-axis is the rebounds,
+* **Cumulative Per Game**: The x-axis is the player height. The y-axis is the rebounds,
 blocks, and steals depending on what tab the user is on. More specifically, the user is able
 to switch views via tabs to view block data vs. steals data vs. rebound data in order to avoid
 cognitive overload.
-* **Percentage Per Game** Very similar to the above scatter plot, except this will
+* **Percentage Per Game**: Very similar to the above scatter plot, except this will
 display rebound percentage, block percentage, and steal percentages. Additionally, there will
 be an interactive range filter (documented in this link) to filter out players that follow below a
 threshold of number of rebounds, blocks, steals, height and weight. This is so that the user can
 disregard players who only blocked one or two times a season but have a block percentage of 100%
 and also answer the question of who the best short defensive players were.
-* **Leaguewide Per Game Stats** The x-axis is the year representing the corresponding NBA season. The y-axis will
+* **Leaguewide Per Game Stats**: The x-axis is the year representing the corresponding NBA season. The y-axis will
 be the average rebounds, blocks, and steals LEAGUE-WIDE. Users is able to follow the
 trends of each statistic throughout history.
-* **Defensive Stars Seasonal** Additionally, having a line chart of INDIVIDUAL rebounds, blocks
+* **Defensive Stars Seasonal**: Additionally, having a line chart of INDIVIDUAL rebounds, blocks
 and steals of the all-time league leaders in rebounds, blocks, and steals would also be interesting
 from a user point of view. For example, given some subset of historical all-time defenders, we
 graph on the x-axis how many years into their career and on the y-axis a filterable view of seasonal
 rebound, blocks, and steals (again, separating with different tabs). From this, the user can see
 where in a defenders career does their rebounds, blocks, and steals usually peak (early in their
 career when they are still athletic, or late in their career when they are more experienced, etc.).
-* **Defensive Stats Individual Player Search** The user is able to view the individual defensive stats of any player of their choice. This allows them to go into deeper detail of a particular player rather than just a broad overview of league-wide data.
+* **Defensive Stats Individual Player Search**: The user is able to view the individual defensive stats of any player of their choice. This allows them to go into deeper detail of a particular player rather than just a broad overview of league-wide data.
 
 ## Results
+![rebounds](https://github.com/chau-t-tran/info250-final/blob/main/rebounds.PNG?raw=true)
 
 What is most interesting to see is in the **Leaguewide Per Game Stats** visualization, which depicts defensive treds over the years. It seems that the 3 core defensive stats - rebounds, blocks, steals - have ALL decreased over the years from 1973-2017. 
 
